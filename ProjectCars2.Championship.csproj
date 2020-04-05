@@ -59,10 +59,48 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="WPFConverters.cs" />
+    <Compile Include="_pCarsAPIClass\Methods\pCarsAPI-MapStructToClass.cs" />
+    <Compile Include="_pCarsAPIClass\Classes\LapTimeClass.cs" />
+    <Compile Include="_pCarsAPIClass\Weather.cs" />
+    <Compile Include="_pCarsAPIClass\CarDamage.cs" />
+    <Compile Include="_pCarsAPIClass\WheelTyre.cs" />
+    <Compile Include="_pCarsAPIClass\MotionDevice.cs" />
+    <Compile Include="_pCarsAPIClass\CarState.cs" />
+    <Compile Include="_pCarsAPIClass\PitInfo.cs" />
+    <Compile Include="_pCarsAPIClass\Flags.cs" />
+    <Compile Include="_pCarsAPIClass\Timings.cs" />
+    <Compile Include="_pCarsAPIClass\Classes\ParticipantClass.cs" />
+    <Compile Include="_pCarsAPIClass\EventInfo.cs" />
+    <Compile Include="_pCarsAPIClass\Vehicle.cs" />
+    <Compile Include="_pCarsAPIClass\Version.cs" />
+    <Compile Include="_pCarsAPIClass\GameState.cs" />
+    <Compile Include="_pCarsAPIClass\UnfilteredInput.cs" />
+    <Compile Include="_pCarsAPIClass\pCarsAPI-Class.cs" />
+    <Compile Include="_pCarsAPIClass\ParticipantInfo.cs" />
+    <Compile Include="_pCarsAPIStruct\pCarsAPI-ReadAPI.cs" />
+    <Compile Include="_pCarsAPIStruct\pCarsAPI-Struct.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="_eNums\eAPIStructLengths.cs" />
+    <Compile Include="_eNums\eCarFlags.cs" />
+    <Compile Include="_eNums\eCrashDamageState.cs" />
+    <Compile Include="_eNums\eCurrentSector.cs" />
+    <Compile Include="_eNums\eFlagColors.cs" />
+    <Compile Include="_eNums\eFlagReason.cs" />
+    <Compile Include="_eNums\eGameState.cs" />
+    <Compile Include="_eNums\eHeaderVersion.cs" />
+    <Compile Include="_eNums\ePitMode.cs" />
+    <Compile Include="_eNums\ePitSchedule.cs" />
+    <Compile Include="_eNums\eRaceState.cs" />
+    <Compile Include="_eNums\eSessionState.cs" />
+    <Compile Include="_eNums\eTerrain.cs" />
+    <Compile Include="_eNums\eTyreFlags.cs" />
+    <Compile Include="_eNums\eTyres.cs" />
+    <Compile Include="_eNums\eVector.cs" />
+    <Compile Include="_eNums\_EnumGetDescription.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
